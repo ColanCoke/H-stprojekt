@@ -6,12 +6,24 @@ using System.Threading.Tasks;
 
 namespace Höstprokekt
 {
-    class Program
+    class Food
     {
-        static void Main(string[] args)
+
+        int savoury;
+
+        public int price;
+
+        int taste;
+
+        int fit;
+
+        int vegetarian;
+
+        public void GetStats()
         {
 
-
         }
+
+
     }
 }
