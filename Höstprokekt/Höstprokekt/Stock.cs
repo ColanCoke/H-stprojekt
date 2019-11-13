@@ -8,6 +8,13 @@ namespace Höstprokekt
 {
     class Stock : Food
     {
+
+        int richness;
+        //Ska göra en metod som använder bulljongens inre stats (och en form av ekvation) för att randomisera richness.
+        //If (richness > 10(eller nått)) så skrivs ett meddelande ut. Detta görs i slutet av spelet när man får höra om hur ens nudelsoppa var
+        //kommer ha olika slutmeddelanden beroende på olika faktorer (i mån av tid)
+
+
         public void Beef()
         {
             savoury = 10;

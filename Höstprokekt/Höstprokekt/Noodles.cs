@@ -8,6 +8,9 @@ namespace Höstprokekt
 {
     class Noodles : Food
     {
+        int overcooked;
+        //Ska göra en metod för att se att nudlarna är överkokta eller inte. 
+
 
         //Soba
 
