@@ -11,6 +11,11 @@ namespace Höstprokekt
         static void Main(string[] args)
         {
 
+            //Skriv i main om slut:
+            //If Savory > 15
+            // As the soup trickles down your throat, you get a filling feeling in your stomach. Gosh this is savory!
+            //Etc.
+
 
         }
     }

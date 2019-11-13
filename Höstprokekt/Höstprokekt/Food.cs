@@ -9,21 +9,15 @@ namespace Höstprokekt
     class Food
     {
 
-        int savoury;
+        public int savoury; //Int för savoury of dish
 
-        public int price;
+        public int price; //Int för pris
 
-        int taste;
+        public int taste; //int för taste
 
-        int fit;
+        public string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
 
-        int vegetarian;
-
-        public void GetStats()
-        {
-            
-        }
-
+        public int vegetarian;
 
     }
 }
