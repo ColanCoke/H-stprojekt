@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Höstprokekt
 {
-    class Noodles
+    class Noodles : Food
     {
+
+        //Soba
+
+        //Egg
+
+        //Rice-noodle
+
+        //Udon
+
     }
 }

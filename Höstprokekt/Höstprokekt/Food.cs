@@ -13,11 +13,11 @@ namespace Höstprokekt
 
         public int price; //Int för pris
 
-        public int taste; //int för taste
+        protected string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
 
-        public string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
+        public bool vegetarian;
 
-        public int vegetarian;
+        
 
     }
 }
