@@ -20,25 +20,12 @@ namespace Höstprokekt
             return false;
         }
 
-        public void Soba()
+        public enum NoodleChoice
         {
-
-        }
-
-        public void Egg()
-        {
-
-        }
-
-
-        public void RiceNoodle()
-        {
-
-        }
-
-        public void Udon()
-        {
-
+            Soba,
+            Egg,
+            Rice,
+            Udon
         }
 
     }

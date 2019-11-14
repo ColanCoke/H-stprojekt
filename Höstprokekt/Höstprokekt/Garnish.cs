@@ -21,7 +21,6 @@ namespace Höstprokekt
             Ginger,
             Garlic,
             Mushroom
-
         }
 
     }
