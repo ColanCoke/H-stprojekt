@@ -8,9 +8,21 @@ namespace Höstprokekt
 {
     class Garnish
     {
-        //Konstruktor Garnish som räknar på smaken som kommer ges av ens val.
+        Random flavour = new Random();
 
-        //Gör en enum för garnish i main som väljs av spelaren. Garnishklassen räknar bara på smak.
-        //Randomiser API?
+        public int Flavours()//En metod för randomising av flavour. Möjligen: Randomiser API?
+        {
+            return flavour.Next(10);
+        }
+        
+        public enum Garnishes
+        {
+            Scallions,
+            Ginger,
+            Garlic,
+            Mushroom
+
+        }
+
     }
 }
