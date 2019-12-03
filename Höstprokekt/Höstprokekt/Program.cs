@@ -17,6 +17,20 @@ namespace Höstprokekt
             //Etc.
 
 
+            //Welcome to game
+            //You'll do X and X
+            //Start!
+            //Choose your stock:
+            //Choose your Noodles
+            //Choose your Meat:
+            //Choose your Garnish:
+            //countar ihop de olika värdena. Olika värden ger olika slutdialoger
+            
+            
+
+            Console.ReadLine();
+
+
         }
     }
 }

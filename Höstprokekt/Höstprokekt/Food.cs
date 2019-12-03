@@ -6,18 +6,21 @@ using System.Threading.Tasks;
 
 namespace Höstprokekt
 {
-    class Food
+    public class Food
     {
 
-        public int savoury; //Int för savoury of dish
-
-        public int price; //Int för pris
+        protected int savoury; //Int för savoury of dish. de är protected så andra klasser kan använda dem, men inte "synas".
 
         protected string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
 
-        public bool vegetarian;
+        protected bool vegetarian;
 
         
-
+        public void Print_Stats()
+        {
+            Console.WriteLine("Savoury: " + savoury);
+            Console.WriteLine("Will fit with: " + fit);
+            Console.WriteLine("Vegetarian: " + vegetarian);
+        }
     }
 }
