@@ -42,8 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Meat Type\Beef.cs" />
+    <Compile Include="Meat Type\Chicken.cs" />
+    <Compile Include="Meat Type\Pak_Choy.cs" />
+    <Compile Include="Meat Type\Pork.cs" />
+    <Compile Include="Stock\B_Stock.cs" />
+    <Compile Include="Stock\C_Stock.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="Garnish.cs" />
+    <Compile Include="Meat Type\Meat.cs" />
+    <Compile Include="Noodles.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stock\P_Broth.cs" />
+    <Compile Include="Stock\Stock.cs" />
+    <Compile Include="Stock\V_Stock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
