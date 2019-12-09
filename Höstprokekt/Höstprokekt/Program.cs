@@ -16,6 +16,28 @@ namespace Höstprokekt
             // As the soup trickles down your throat, you get a filling feeling in your stomach. Gosh this is savory!
             //Etc.
 
+            Meat m1 = new Meat();
+            Console.WriteLine("Choose your meat.");
+            Console.WriteLine("1. Beef , 2. Pak Choy");
+
+            string choice;
+            choice = Console.ReadLine();
+        
+
+            if(choice = "Beef")
+            {
+                m1.Beef();
+
+            }
+            else if (choice = "Pak")
+            {
+                m1.Pak_Choy();
+
+            }
+
+            m1.Print_Stats();
+
+
 
             //Welcome to game
             //You'll do X and X

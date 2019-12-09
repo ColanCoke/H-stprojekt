@@ -18,5 +18,23 @@ namespace Höstprokekt
 
             return false;
         }
+         
+        public void Beef()
+        {
+            savoury = 10;
+
+            fit = "beef"; //köttet beef kommer ha samma namn på "fit". en metod i main kommer avkolla om det står samma sak i "fit"
+
+            vegetarian = false;
+        }
+
+        public void Pak_Choy()
+        {
+            savoury = 10;
+
+            fit = "veg";
+
+            vegetarian = true;
+        }
     }
 }
