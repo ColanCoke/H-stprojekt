@@ -46,7 +46,10 @@ namespace Höstprokekt
                 s1.Pork();
             }
 
+            Console.WriteLine("Great choice! You chose:");
+            s1.Get_Name();
 
+            AnyKey();
 
             Meat m1 = new Meat(); //en instans av meat
             Console.WriteLine("Choose your meat. Write the corresponding number between 1-4.");
@@ -77,8 +80,6 @@ namespace Höstprokekt
             m1.Print_Stats();
 
             AnyKey();
-
-            Stock s1 = new Stock();
 
 
             if (m1.fit == s1.fit) //kollar så att fit på stock och meat är samma.

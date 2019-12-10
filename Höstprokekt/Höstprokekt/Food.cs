@@ -13,9 +13,9 @@ namespace Höstprokekt
 
         public string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
 
-        protected bool vegetarian;
+        protected bool vegetarian; //en bool för att se om något är vegetariskt
 
-        protected string name;
+        protected string name; //gör det enkelt för mig att visa vad spelaren valt
 
         
         public void Print_Stats() //en print-stats metod för att se vad de olika statsen är.
