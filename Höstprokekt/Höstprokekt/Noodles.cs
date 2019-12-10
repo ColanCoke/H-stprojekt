@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Höstprokekt
 {
-    class Noodles : Food
+    class Noodles //en klass för nudlarna
     {
         Random overCooked = new Random();
         //En metod för att se att nudlarna är överkokta eller inte. 

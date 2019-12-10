@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Höstprokekt
 {
-    public class Food
+    public class Food //en stor Food klass som alla mattyper är baserade på
     {
 
         protected int savoury; //Int för savoury of dish. de är protected så andra klasser kan använda dem, men inte "synas".
 
-        protected string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
+        public string fit; //string för fit. Kommer ha en metod för att kolla att bulljongen och köttet passar ihop.
 
         protected bool vegetarian;
 
         
-        public void Print_Stats()
+        public void Print_Stats() //en print-stats metod för att se vad de olika statsen är.
         {
             Console.WriteLine("Savoury: " + savoury);
             Console.WriteLine("Will fit with: " + fit);

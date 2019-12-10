@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Höstprokekt
 {
-    class Garnish
+    class Garnish //en klass för garnish.
     {
         Random flavour = new Random();
 
