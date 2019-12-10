@@ -26,6 +26,8 @@ namespace Höstprokekt
             fit = "beef"; //köttet beef kommer ha samma namn på "fit". en metod i main kommer avkolla om det står samma sak i "fit"
 
             vegetarian = false; //en bool för att kolla av om rätten är vegetarian-safe
+
+            name = "Beef";
         }
 
         public void Chicken()
@@ -35,6 +37,8 @@ namespace Höstprokekt
             fit = "chick";
 
             vegetarian = false;
+
+            name = "Chicken";
         }
 
         public void Pak_Choy()
@@ -44,6 +48,8 @@ namespace Höstprokekt
             fit = "veg";
 
             vegetarian = true;
+
+            name = "Pak choy";
         }
 
         public void Pork()
@@ -53,6 +59,8 @@ namespace Höstprokekt
             fit = "pork";
 
             vegetarian = false;
+
+            name = "Pork";
         }
     }
 }

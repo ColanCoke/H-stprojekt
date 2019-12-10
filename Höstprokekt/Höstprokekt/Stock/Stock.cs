@@ -19,11 +19,13 @@ namespace Höstprokekt
 
         public void Beef() //Konstruktor för Beef stock. Används för att ge den dess stats
         {
-            savoury = 10;
+            savoury = 7;
 
             fit = "beef"; //köttet beef kommer ha samma namn på "fit". en metod i main kommer avkolla om det står samma sak i "fit"
 
             vegetarian = false;
+
+            name = "Beef stock";
         }
 
         public void Chicken()
@@ -33,6 +35,8 @@ namespace Höstprokekt
             fit = "chick";
 
             vegetarian = false;
+
+            name = "Chicken stock";
         }
 
         public void Veggie()
@@ -42,15 +46,19 @@ namespace Höstprokekt
             fit = "veg";
 
             vegetarian = true;
+
+            name = "Vegetable stock";
         }
 
         public void Pork()
         {
-            savoury = 7;
+            savoury = 15;
 
             fit = "pork";
 
             vegetarian = false;
+
+            name = "Pork stock";
         }
 
     }

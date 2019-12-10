@@ -15,12 +15,19 @@ namespace Höstprokekt
 
         protected bool vegetarian;
 
+        protected string name;
+
         
         public void Print_Stats() //en print-stats metod för att se vad de olika statsen är.
         {
             Console.WriteLine("Savoury: " + savoury);
             Console.WriteLine("Will fit with: " + fit);
             Console.WriteLine("Vegetarian: " + vegetarian);
+        }
+
+        public void Get_Name()
+        {
+            Console.WriteLine(name);
         }
     }
 }
